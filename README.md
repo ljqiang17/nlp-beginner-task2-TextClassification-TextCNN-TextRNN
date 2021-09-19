@@ -7,7 +7,7 @@
 
 2. 数据集：https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews
 
-3. 分类要求，将sentence进行情感分类吗，一共五类
+3. 分类要求，将sentence进行情感分类，一共五类
 
    0: negative
 
