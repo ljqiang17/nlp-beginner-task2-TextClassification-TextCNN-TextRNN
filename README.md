@@ -37,7 +37,7 @@
    fields = [('PhraseId', None), ('SentenceId', None), ('Phrase', TEXT), ('Sentiment', LABEL)]
    ```
 
-   这里一定要指定fix_length，因为数据集中有非常短的的phrase，比如一个单词，如果不padding，会出现卷积核的h维度大于token数，导致runtimeerror
+   这里一定要指定fix_length，因为数据集中有非常短的的phrase，比如一个单词，如果不padding，会出现卷积核的h维度大于token数，导致runtimeerror. 此处我设置的是60，原因是数据集中最长的phrase为52个token.
 
 2. 数据载入
 
